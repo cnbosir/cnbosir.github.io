@@ -1,7 +1,7 @@
 baseURL = 'https://bosir.cn/'
 languageCode = 'en-us'
-title = 'Today I Learned'
-copyright = 'Michael Henriksen'
+title = '水清无鱼'
+copyright = 'Bosir'
 enableRobotsTXT = true
 
 [module]
@@ -39,8 +39,8 @@ enableRobotsTXT = true
 
 [params]
   [params.author]
-    name = 'Michael Henriksen'
-    email = 'mchnrksn@gmail.com'
+    name = 'bosir'
+    email = '9003@88.com'
 
   [params.footer]
     creativeCommonsLicense = 'by_sa'
