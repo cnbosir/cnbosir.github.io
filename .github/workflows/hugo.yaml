@@ -76,7 +76,7 @@ jobs:
           # 复制到目标目录， 阿里云上面的网站根目录
           TARGET: "/www/wwwroot/bosir.cn"
           # 表示清空目标目录, 清空用来已有的html网站文件
-          ARGS: "-avzr --delete"
+          ARGS: "-rlgoDzvc -i --delete"
           # 表示你要复制的源目录, 在github上面build出来的hugo html 文件夹目录
           SOURCE: "./public/"
           # 不需要复制的目录/文件。
